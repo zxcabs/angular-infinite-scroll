@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="scrollApp">
+<head>
+    <title>Angular infinite scroll</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.js"></script>
+    <script src="../src/infinite-scroll.js"></script>
+    <script src="main.js"></script>
+</head>
+<body ng-controller="mainCtrl">
+    <ol class="scroll-box" dr-window-infinite-scroll="onScroll()">
+        <li class="scroll-box-item" ng-repeat="item in list">{{ item }}</li>
+    </ol>
+</body>
+</html>

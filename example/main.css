@@ -1,0 +1,13 @@
+.scroll-box {
+    width: 300px;
+    border: 1px solid #999999;
+}
+
+.scroll-box-item {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.scroll-box-item:hover {
+    background-color: #f5f5f5;
+}

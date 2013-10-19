@@ -1,0 +1,19 @@
+{
+  "name": "angular-infinite-scroll",
+  "version": "0.0.1",
+  "authors": [
+    "Evgeny Reznichenko <kusakyky@gmail.com>"
+  ],
+  "description": "angular infinite scroll directives",
+  "main": "src/infinite-scroll.js",
+  "license": "MIT",
+  "homepage": "https://github.com/zxcabs/angular-infinite-scroll",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".idea"
+  ]
+}
